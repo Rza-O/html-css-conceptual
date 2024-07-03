@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Baskervville+SC&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&family=Playwrite+IT+Moderna:wght@100..400&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -6,20 +7,41 @@ h2{
     color: blueviolet;
     font-style: italic;
     font-weight: lighter;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: "Playwrite IT Moderna", cursive;
+    font-optical-sizing: auto;
     text-decoration: underline;
     font-size: 80px;
     text-align: center;
 }
 #heading{
-    background-color: rgb(48, 41, 38);
+    background-image: url("../asset/concept.jpg");
+    background-repeat: none;
+    background-size: cover;
+    background-position: center;
     height: 600px;
     padding: 100px 0;
-    width: 1100px;
+    max-width: 1100px;
+    /* if you find more than 1100 then only take otherwise take full*/
     /* section design */
     /* margin-top: 40px; 
     margin-bottom: 10px;
     margin-left: auto;
     margin-right: auto; */
     margin: 30px auto;
+}
+
+.btn{
+    background-color: rgb(228, 159, 134);
+    padding: 8px 15px;
+    font-family: "Playwrite GB S", cursive;
+    color: aliceblue;
+    border-style: solid;
+    border-width: 4px;
+    border-color: rgb(77, 137, 206);
+    border-radius: 6px;
+    text-align: center;
+}
+.btn-prnt{
+    text-align: center;
+    margin: 20px;
 }
