@@ -44,4 +44,9 @@ h2{
 .btn-prnt{
     text-align: center;
     margin: 20px;
+    transition: 1s;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: rgb(219, 79, 177);
 }
